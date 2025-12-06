@@ -21,7 +21,7 @@ pipeline {
             steps {
                 dir('revtickets-frontend') {
                     bat 'npm install --legacy-peer-deps'
-                    bat 'npm run build --prod'
+                    bat 'npm run build'
                 }
             }
         }
